@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('C:/Users/harsh/OneDrive/Desktop/5th Sem/IP/IP Project/new.jpg')
+img = cv2.imread('new.jpg')
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 gray = cv2.bitwise_not(gray)
