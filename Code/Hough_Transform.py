@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('C:/Users/harsh/OneDrive/Desktop/IP/IP Project/new.jpg')
+img = cv2.imread('new.jpg')
 #img = cv2.resize(img , (img.shape[1]//2, img.shape[0]//2))
 
 # kernel = np.array([[-1,-1,-1],
